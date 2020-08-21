@@ -1,0 +1,83 @@
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    background: url("../images/display.jpg") no-repeat center center fixed;  ;
+} 
+
+h4{
+    border-bottom: 1px solid #950740;
+    color: floralwhite; 
+}
+
+.navbar-dark {
+    background-color: #950740;
+    color: whitesmoke;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.4);
+    color: floralwhite;
+}
+
+.about {
+    background-color: #303c6c;
+    color: whitesmoke;
+}
+
+.btn-primary{
+    background-color: #950740;
+    border: 1px solid #950740;
+}
+
+.list-unstyled{
+    color: whitesmoke;
+}
+
+.design {
+    background: #ffe400;
+}
+
+.develop {
+    background: #14a76c;
+}
+
+.freelance {
+    background: #ff652f;
+}
+
+.html {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.4);
+    color: floralwhite;
+}
+
+.card-body {
+    background-color: #0f0f0f;
+    color: floralwhite;
+}
+
+.card {
+    border: 1px solid #0f0f0f;
+}
+
+
+.anime {
+    animation-duration: 1s; -webkit-animation-duration: 1s; 
+    animation-name: slidein; -webkit-animation-name: slidein;
+    animation-iteration-count: 3; -webkit-animation-iteration-count: 3; 
+    animation-direction: alternate-reverse; -webkit-animation-direction: alternate-reverse;}
+    
+                    @keyframes slidein {
+                        from {
+                            margin-right: 1%;
+                        }
+                        to {
+                            margin-left: -1%;
+                        }
+}
