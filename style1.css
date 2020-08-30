@@ -1,0 +1,50 @@
+body {
+    padding: 50px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    } 
+
+h1 {
+    color: tomato;
+}
+
+h4, h5{
+    border-bottom: 2px solid tomato; 
+    padding-bottom: 5px;
+}
+
+.navbar-dark {
+    background-color: #123c69;
+}  
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: black;   
+    color: floralwhite;
+}
+
+.about {
+    background-color: #303c6c;
+    }
+
+
+.btn-primary{
+    background-color: #123c69;
+    border: 1px solid #123c69;
+}
+
+.list-unstyled{
+    }color: whitesmoke;
+
+.html {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: rgb(10, 10, 10);
+    font-size: small;
+    line-height: 25px;
+   color: floralwhite;
+} 
+

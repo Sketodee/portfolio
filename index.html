@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="css/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+    <link rel="stylesheet" href="style1.css">
     <title>Shobande James </title>
 </head>
 
@@ -26,9 +32,8 @@
             <div class="collapse navbar-collapse" id="Navbar"> 
                 <ul class="navbar-nav mr-auto"> 
                     <li class="nav-item active"> <a class="nav-link" href="#"> <span class="fa fa-home fa-lg"></span> Home </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="aboutus.html"> <span class="fa fa-info fa-lg"></span> About </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> <span class="fa fa-list fa-lg"></span> Contact </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#"> <span class="fa fa-address-card fa-lg"></span> Blog </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#about"> <span class="fa fa-info fa-lg"></span> About </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#footer"> <span class="fa fa-list fa-lg"></span> Contact </a> </li>
                 </ul>
             </div>      
         </div>
@@ -36,91 +41,81 @@
 
     <header> 
 
-        <div class="jumbotron"> 
+        <div class="jumbotron" id="about"> 
             <div class="container"> 
                 <div class="row row-header"> 
                     <div class="col-12 col-sm-6">
-                        <h1> Shobande James  </h1>
+                        <h1 id="myName">  </h1>
                         <p  class="text-justify"> I am a web developer from Lagos, Nigeria. I enjoy building all types of websites
                         ranging from small businesses to large e-commerce websites and web-page applications.
                         If you are a business seeking a web presence or an employer looking to hire, you can get in
                         touch with me here. </p>
-                        <a><button class="btn btn-primary btn-block col-6"> Hit Me </button></a>
+                        <a href="https://wa.link/t5vmrn"><button class="btn btn-primary btn-block col-6"> Hit Me </button></a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="container"> 
+    <div class="container mb-5"> 
         <div class="row">
             <div class="w-sm-50 mx-auto mt-3">
-                <h4> What I Can Do </h4>
+                <h4 class=" mb-5 animate__animated animate__zoomIn"> What I Can Do </h4>
+            </div>
+        </div>
+        <div class="row stacklist">
+            <div class="offset-1 offset-sm-0 col-10 col-sm-4 mb-5 animate__animated animate__zoomIn"> 
+                <h5 > Design what you want </h5>
+                <p class="mt-4"> I like to keep it simple, my goals are to focus on typography, content and conveying the 
+                    message you want to send 
+                </p>  
+            </div>
+            <div class="offset-1 offset-sm-0 col-10 col-sm-4 mb-5 animate__animated animate__zoomIn"">
+                <h5> Develop what you need </h5>
+                <p class="mt-4"> I am a developer who takes into consideration site responsiveness using any latest possible
+                    way 
+                </p> 
+            </div>
+            <div class="offset-1 offset-sm-0 col-10 col-sm-4 animate__animated animate__zoomIn">
+                <h5> Freelance </h5>
+                <p class="mt-4"> During my free time, I also collaborate with other developers. What we do? We find ways 
+                    to change the world. 
+                </p> 
             </div>
         </div>
     </div>
 
-    <div class="container pb-5 "> 
-        <div class="row anime">
-            <div class="col-12 offset-sm-1 col-sm-3 mt-4">
-                <div class="card"> 
-                    <h5 class="card-header design">  Design what you want  </h5>
-                    <div class="card-body"> 
-                        <p class="mt-4"> I like to keep it simple, my goals are to focus on typography, content and coveying the 
-                            message you want to send 
-                        </p> 
-                    </div>
-                </div>
-            </div>
 
-            <div class="offset-sm-1 col-12 col-sm-3 mt-4 mt-sm-5">
-                <div class="card"> 
-                    <h5 class="card-header develop">  Develop what you need  </h5>
-                    <div class="card-body"> 
-                        <p class="mt-4"> I am a developer who takes into consideration site responsiveness using any latest possible
-                            way 
-                        </p> 
-                    </div>
-                </div>
-            </div>
 
-            <div class="offset-sm-1 col-12 col-sm-3 mt-4">
-                <div class="card"> 
-                    <h5 class="card-header freelance">  Freelance  </h5>
-                    <div class="card-body"> 
-                        <p class="mt-4"> During my free time, I also collaborate with other developers. What we do? We find ways 
-                            to change the world. 
-                        </p> 
-                    </div>
-                </div>
     
-            </div>
-        </div>
-    </div>
-
-    <div class="container pb-5"> 
+    <div class="container pb-5 stacklist"> 
         <div class="row">
-            <div class="w-sm-50 mx-auto mt-3">
-                <h4> Stacks </h4>
+            <div class="offset-1 col-10 col-sm-5"> 
+                <div class="mx-auto mt-3 stacklist justify-content-center">
+                    <h4 class="mb-4"> Tech Stacks </h4>
+                    <p> <i class="fab fa-html5 fa-lg mr-2"></i> HTML </p>
+                    <p> <i class="fab fa-css3-alt fa-lg mr-2"></i> CSS </p>
+                    <p> <i class="fab fa-js-square fa-lg mr-2"></i> Javascript </p>
+                    <p> <i class="fab fa-react fa-lg mr-2"></i> React </p>
+                    <p> <i class="fab fa-bootstrap fa-lg mr-2"></i> Bootstrap </p>
+                    <p> <i class="fas fa-file-code fa-lg mr-2"></i> Animate </p>
+                </div>
+            </div>
+            <div class="offset-1 col-10 col-sm-5"> 
+                <div class="mx-auto mt-3 ">
+                    <h4 class="mb-4"> Other Skills  </h4>
+                    <p> <i class="far fa-dot-circle fa-lg mr-2"></i> Collaboration </p>
+                    <p> <i class="far fa-dot-circle fa-lg mr-2"></i> Problem Solving </p>
+                    <p> <i class="far fa-dot-circle fa-lg mr-2"></i> Debugging </p>
+                    <p> <i class="far fa-dot-circle fa-lg mr-2"></i> Communication </p>
+                    <p> <i class="far fa-dot-circle fa-lg mr-2"></i> Time Management </p>
+                    <p> <i class="far fa-dot-circle fa-lg mr-2"></i> Creativity </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container mt-3">
-        <div class="row offset-1 offset-sm-2"> 
-            <div class="col-3">
-                <img class="html" src="images/html.png" alt="html">
-            </div>
-            <div class="col-3 offset-sm-1">
-                <img class="html" src="images/css.png" alt="css">
-            </div>
-            <div class="col-3 offset-sm-1">
-                <img class="html" src="images/javascript.png" alt="javascript">
-            </div>
-        </div>
-    </div>
-
-    <footer>
+    <footer id="footer">
         <div class="container mt-4">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2 mt-4">
@@ -137,19 +132,19 @@
                     <address>
 		              Agungi, Lekki<br>
 		              NIGERIA<br>
-                      <i class="fa fa-whatsapp fa-lg"></i>: +2348141648402<br>
-                      <i class="fa fa-phone fa-lg"></i>: +2348152371012<br>
-		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:shobandejames@gmail.net">shobandejames@gmail.com</a>
+                      <i class="fab fa-whatsapp fa-lg"></i>: <a href="https://wa.link/t5vmrn"> +2348141648402 </a> <br>
+                      <i class="fa fa-phone fa-lg"></i>: <a href="tel: +2348152371012"> +2348152371012 </a> <br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:shobandejames@gmail.com">shobandejames@gmail.com</a>
 		           </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon" href="http://google.com/+"><i class="fa fa-github fa-lg"></i></a>
-                        <a class="btn btn-social-icon " href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon " href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a class="btn btn-social-icon " href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a class="btn btn-social-icon " href="http://youtube.com/"> <i class="fa fa-instagram fa-lg"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    <div class="text-center buttonarea">
+                        <a class="btn btn-social-icon btn-info" href="https://github.com/Sketodee"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-info " href="http://www.facebook.com/sketophodamos"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-info" href="http://www.linkedin.com/in/shobande-james-903b32170"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-info " href="http://twitter.com/sketo55?s=09"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-info " href="http://instagram.com/sketo55?sket_von_stradonitz"> <i class="fab fa-instagram fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-info" href="mailto:shobandejames@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
                     </div>
                 </div>
            </div>
@@ -161,11 +156,12 @@
         </div>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="js/script.js" type="text/javascript"> </script> 
     <script src="css/jquery/dist/jquery.slim.min.js"></script>
     <script src="css/popper.js/dist/umd/popper.min.js"></script>
     <script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
-
-
+    
+    
 
 </body>
 </html>
